@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail-item {
+  /* controls size of the image */
+  width: 30%;
+  height: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thumbnail-item > img {
+  /* the image adapts to it's parent */
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.picture-frame {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.picture-frame > img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 500px;
+  min-height: 500px;
+}
