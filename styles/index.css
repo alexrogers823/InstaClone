@@ -13,12 +13,24 @@ html, body {
   width: 100%;
 }
 
+body {
+  background-color: skyblue;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px black;
+}
+
 .thumbnail-item {
   /* controls size of the image */
   width: 30%;
   height: 150px;
   margin-bottom: 20px;
   text-align: center;
+  box-shadow: 2px 2px 3px black;
+  background-color: orange;
 }
 
 .thumbnail-item > img {
@@ -37,6 +49,9 @@ html, body {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  background-color: darkblue;
+  box-shadow: 2px 2px 2px orange,
+              4px 4px 4px black;
 }
 
 .picture-frame > img {
